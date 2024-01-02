@@ -2,11 +2,9 @@ import telebot
 from telebot import types
 from bs4 import BeautifulSoup
 import requests
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 import time
 
-TOKEN = '6692695290:AAFR1My0f132RkbwYxGzyceP8Tjt7ezEaQI'
+TOKEN = 'None'
 bot = telebot.TeleBot(TOKEN)
 
 # Проверка записи пользователя в txt документе
